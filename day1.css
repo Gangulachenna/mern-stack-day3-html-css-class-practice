@@ -1,0 +1,27 @@
+button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid purple;
+  position: relative;
+  margin-left: 98px;
+}
+h1 {
+  text-align: center;
+  color: blue;
+}
+p {
+  font-size: 14px;
+  color: grey;
+}
+.loginBtn {
+  background-color: purple;
+}
+.cashbackBtn {
+  border-color: red;
+  font-family: "monospace";
+}
+.contactBtn {
+  background-color: orange;
+}
