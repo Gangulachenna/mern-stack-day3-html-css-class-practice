@@ -1,0 +1,121 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  width: 57%;
+  margin: auto;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.sub-container {
+  border: 2px solid black;
+  border-radius: 49px;
+  height: 75px;
+  width: 75px;
+}
+
+.flight-images {
+  height: 39px;
+  width: 40px;
+  padding-top: 19px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.hotel-images {
+  height: 42px;
+  width: 40px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.rail-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.catering-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cards-images {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.cards-heading {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.holiday-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.train-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gallery-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 18px;
+  padding-bottom: 13px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.bus-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  padding-right: 16px;
+}
+
+.sub-container:hover {
+  background-color: #2596be;
+  border-color: #2596be;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.sub-container:hover img {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .parent-container {
+    width: 60%;
+  }
+}
