@@ -1,0 +1,272 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 30px;
+}
+
+.box {
+  background-color: chartreuse;
+  font-size: 20px;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  width: 57%;
+  margin: auto;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.sub-container {
+  border: 2px solid black;
+  border-radius: 49px;
+  height: 75px;
+  width: 75px;
+}
+
+.flight-images {
+  height: 39px;
+  width: 40px;
+  padding-top: 19px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.hotel-images {
+  height: 42px;
+  width: 40px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.rail-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.catering-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cards-images {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.cards-heading {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.holiday-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.train-images {
+  height: 45px;
+  width: 45px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gallery-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 18px;
+  padding-bottom: 13px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.bus-images {
+  height: 40px;
+  width: 40px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  padding-right: 16px;
+}
+
+.sub-container:hover {
+  background-color: #2596be;
+  border-color: #2596be;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.sub-container:hover img {
+  transform: scale(1.2);
+}
+
+.heading-one {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 110px !important;
+}
+
+.parent-container-two {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 90px;
+  flex-wrap: wrap;
+  width: 57%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent-container {
+    width: 60%;
+  }
+}
+
+.holiday-section {
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.holiday-card {
+  background-color: #fff;
+  width: 350px;
+  border: 1px solid #d9d9d9;
+}
+
+.card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-heading {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+.my-service-section {
+  padding: 60px 20px;
+}
+
+.service-main-title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 50px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.service-box {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.service-icon-circle {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 15px;
+  border: 2px solid #0d6efd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.service-title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+  color: #222;
+  line-height: 1.4;
+}
+
+.service-box:hover .service-icon-circle {
+  background-color: #0d6efd;
+  transform: translateY(-8px);
+}
+
+.service-box:hover .service-title {
+  color: #0d6efd;
+}
+
+.service-box:hover .service-icon {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .service-main-title {
+    font-size: 28px;
+  }
+
+  .service-icon-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .service-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  margin-left: 30px;
+}
